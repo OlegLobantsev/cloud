@@ -1,0 +1,30 @@
+.start-page {
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	margin: 70px auto;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+.start-page--welcome {
+	width: 40%;
+}
+
+.start-page--image {
+	width: 40%;
+}
+
+.start-page--welcome--subtitle {
+	font-size: 2em;
+	font-weight: 600;
+}
+
+.start-page--welcome--subtitle:hover {
+	color: gray;
+	transform: scale(1.2);
+	transition: all 150ms;
+}
+
+.start-page--image {
+	cursor: default;
+}

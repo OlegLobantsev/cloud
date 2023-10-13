@@ -1,0 +1,114 @@
+.form {
+	display: grid;
+	align-items: baseline;
+	padding: 20px;
+	margin: 90px;
+	position: absolute;
+	left: 10%;
+	top: 10%;
+	background-color: lightgray;
+	justify-content: space-around;
+	justify-items: stretch;
+}
+
+.form--title {
+	font-size: 2em;
+	text-align: center;
+	width: 100%;
+}
+
+.form > input {
+	background-color: white;
+	width: 480px;
+	height: 30px;
+	margin: 18px 0;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 40px;
+	font-size: 1em;
+}
+
+.form > input:focus {
+	border: none;
+	outline-color: white;
+}
+
+.form > input[type='submit'] {
+	background-color: white;
+	width: 20%;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-left: 75px;
+}
+
+.form > input[type='submit']:hover {
+	background-color: gray;
+}
+
+.okButton {
+	position: relative;
+	cursor: pointer;
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.okButton:hover {
+	background-color: gray;
+}
+
+.link {
+	position: relative;
+	cursor: pointer;
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.link:hover {
+	background-color: gray;
+	transform: scale(1);
+	transition: all 0ms;
+}
+
+.close {
+	background-color: inherit;
+	cursor: pointer;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.close:hover {
+	transform: scale(1.2);
+	transition: all 150ms;
+}
+
+textarea {
+	background-color: white;
+	height: 30%;
+	width: 70%;
+	margin: 20px 0;
+	border: none;
+	border-radius: 5px;
+	padding: 20px 20px;
+	font-size: 1em;
+	font-family: inherit;
+}
+
+.no {
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer;
+	position: initial;
+	width: 120px;
+	height: 30px;
+	padding: 10px 0px 0px 30px;
+	margin: 10px 0px 0px 0px;
+}
+
+.no:hover {
+	background-color: gray;
+}

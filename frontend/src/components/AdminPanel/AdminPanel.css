@@ -1,0 +1,129 @@
+.admin-panel--access-denied {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.admin-panel--access-denied > .content {
+	font-size: 5em;
+	font-weight: bold;
+	color: #a3abaa;
+}
+
+table {
+	width: auto;
+	margin: 0 auto;
+	font-size: 14px;
+	border-radius: 5px;
+	border-spacing: 2px;
+	text-align: center;
+}
+
+thead {
+	height: 2em;
+	font-size: 1.2em;
+}
+
+th,
+td {
+	border-style: solid;
+	border-width: 0 1px 1px 0;
+	border-color: white;
+}
+
+th {
+	background: black;
+	color: white;
+	padding: 10px 20px;
+}
+
+th:first-child,
+td:first-child {
+	text-align: left;
+}
+
+th:first-child {
+	border-top-left-radius: 10px;
+}
+
+th:last-child {
+	border-top-right-radius: 10px;
+	border-right: none;
+}
+
+td {
+	padding: 10px 20px;
+	background: lightgray;
+}
+
+tr:last-child td:first-child {
+	border-radius: 0 0 0 10px;
+}
+
+tr:last-child td:last-child {
+	border-radius: 0 0 10px 0;
+}
+
+tr td:last-child {
+	border-right: none;
+}
+
+.is-staff-btn-container {
+	display: flex;
+	width: 50px;
+	height: 1.5em;
+	border-radius: 15px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.is-staff-btn {
+	display: flex;
+	width: 50%;
+	height: 100%;
+	background-color: whitesmoke;
+	border-radius: 15px;
+}
+
+.on {
+	justify-content: end;
+	background-color: green;
+}
+
+.off {
+	justify-content: start;
+	background-color: red;
+}
+
+img {
+	cursor: pointer;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+	background-color: lightgray;
+}
+button:hover {
+	transform: scale(1.2);
+	transition: all 150ms;
+}
+
+.to-storage-btn {
+	background-color: white;
+	color: black;
+	height: 2em;
+	border-radius: 5px;
+	cursor: pointer;
+	display: flex;
+	font-size: 0.8em;
+	align-items: center;
+	justify-content: center;
+	padding: 3px 2px;
+}
+
+.to-storage-btn:hover {
+	background-color: gray;
+	transition: all 500ms;
+}

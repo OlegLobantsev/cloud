@@ -1,0 +1,23 @@
+.file-edit-panel {
+    position: fixed;
+    top: 15%;
+    left: 10%;
+    width: 10%;
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: stretch;
+}
+
+.file-edit-panel--item {
+	background-color: gray;
+	padding: 15px;
+	border-radius: 1px;
+	box-shadow: -2px 5px 23px -5px grey;
+	cursor: pointer;
+}
+
+.file-edit-panel--item:hover {
+	background-color: lightslategray;
+}

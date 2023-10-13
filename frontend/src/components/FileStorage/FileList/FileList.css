@@ -1,0 +1,11 @@
+.file-list-title {
+	margin: 20px 20%;
+}
+
+.file-list-container {
+    display: flex;
+    margin: 20px 20%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}

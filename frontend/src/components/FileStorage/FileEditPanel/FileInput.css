@@ -1,0 +1,61 @@
+.file-input-form {
+	display: flex;
+	position: fixed;
+	right: 10%;
+	bottom: 10%;
+	width: 160px;
+	justify-content: space-between;
+}
+
+.input-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 40px;
+	background-color: gray;
+}
+
+.button:hover {
+	background-color: lightgray;
+}
+
+.input-wrapper > label > input {
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+}
+
+input[type='submit'] {
+	position: relative;
+	height: 40px;
+	width: 170px;
+	font-size: inherit;
+	text-align: center;
+	cursor: pointer;
+	background-color: gray;
+	border: none;
+	transform: matrix(1, 0, 0, 1, -86, 0);
+	padding: 1px 100px 1px 40px;
+	margin: 0px;
+}
+
+input[type='submit']:hover {
+	background-color: lightgray;
+}
+
+label {
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+	justify-content: space-around;
+}
+
+.preview {
+	position:fixed;
+	padding:0px 500px 0px 0px;
+	margin:0px 500px 0px 0px;
+}
